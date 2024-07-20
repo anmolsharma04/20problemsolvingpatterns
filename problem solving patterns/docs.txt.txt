@@ -1,0 +1,77 @@
+Two Pointers: This technique uses two pointers to iterate through the data structure, often used for problems involving arrays or linked lists. It can help reduce the time complexity from O(n^2) to O(n).
+
+
+
+Island (Matrix Traversal): This involves navigating a grid or matrix to find connected components, like islands in a sea. Depth-first search (DFS) or breadth-first search (BFS) is often used.
+
+
+
+Fast & Slow Pointers: This pattern uses two pointers moving at different speeds (usually one fast and one slow) to detect cycles within a linked list or array. 
+
+
+
+Sliding Window: This technique involves moving a window (subarray) over an array to solve problems related to subarrays of a certain size or meeting a certain condition.
+
+
+
+Merge Intervals: This involves merging overlapping intervals in an array of intervals, often used in scheduling or booking problems.
+
+
+
+Cyclic Sort: This is used for sorting arrays where elements are within a known range. It sorts in O(n) time by placing elements at their correct positions.
+
+
+
+In-place Reversal of a Linked List: This technique reverses a linked list without using extra space, often by re-pointing the next pointers of the nodes.
+
+
+
+Tree Breadth First Search (BFS): BFS traverses a tree level by level, using a queue to track nodes to be explored next. It's useful for finding the shortest path in an unweighted graph.
+
+
+
+Tree Depth First Search (DFS): DFS explores as far down a branch as possible before backtracking. It's implemented using recursion or a stack and is used for pathfinding and tree traversal.
+
+
+
+Two Heaps: This pattern uses two heaps (a max-heap and a min-heap) to efficiently find the median of a stream of numbers.
+
+
+
+Subsets: This involves generating all possible subsets of a set. It's often solved using recursion or bit manipulation.
+
+
+
+Modified Binary Search: This involves variations of binary search to solve problems like finding the minimum in a rotated array, or searching in an unknown bound.
+
+
+
+Top ‘K’ Elements: This pattern involves finding the top K largest or smallest elements in a dataset, often using heaps or quickselect.
+
+
+
+Bitwise XOR: XOR is a bitwise operation used in problems involving finding the unique element in a set where every element except one appears twice.
+
+
+
+Backtracking: This involves exploring all potential solutions to a problem by trying to build a solution incrementally and abandoning solutions that don't meet the criteria (backtracking).
+
+
+
+0/1 Knapsack (Dynamic Programming): This is a classic dynamic programming problem that involves choosing items with given weights and values to maximize the value without exceeding the weight limit.
+
+
+
+Topological Sort (Graph): This involves ordering the vertices of a directed graph such that for every directed edge UV from vertex U to vertex V, U comes before V. It's used in scheduling problems.
+
+
+
+K-way Merge: This technique merges multiple sorted lists into one sorted list efficiently, often using a heap to keep track of the smallest elements.
+
+
+
+Monotonic Stack: This is a stack where the elements are ordered (either strictly increasing or decreasing). It's used in problems involving the next greater or smaller element.
+
+
+
+Multi-threaded: This involves using multiple threads to solve problems concurrently, which can improve performance for certain types of problems by parallelizing the work.
